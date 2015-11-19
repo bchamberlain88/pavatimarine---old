@@ -1,0 +1,29 @@
+ErrorDocument 404 /errors/404.php
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 week"
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/gif "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+</IfModule>
+## EXPIRES CACHING ##
+
+RewriteEngine on
+RewriteRule ^boats$ boats.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^404$ 404.php [L]
+RewriteRule ^gallery$ gallery.php [L]
+RewriteRule ^test-row$ test-row.php [L]
+RewriteRule ^press$ press.php [L]
+RewriteRule ^thanks$ thanks.php [L]
+
+RewriteCond %{HTTP_HOST} !^www.pavatimarine.com$ [NC]
+RewriteRule ^(.*)$ http://www.pavatimarine.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]

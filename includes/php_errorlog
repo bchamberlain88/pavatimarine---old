@@ -1,0 +1,2 @@
+[12-Mar-2014 05:27:46 CST6CDT] PHP Warning:  require_once(./includes/connect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/highwayp/public_html/pavatimarine/includes/footer.php on line 21
+[12-Mar-2014 05:27:46 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './includes/connect.php' (include_path='.:/usr/local/php53/pear') in /home/highwayp/public_html/pavatimarine/includes/footer.php on line 21

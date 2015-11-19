@@ -1,0 +1,1278 @@
+@font-face { src: url(../fonts/os-l.ttf); font-family: "ol"; }
+@font-face { src: url(../fonts/os-r.ttf); font-family: "or"; }
+@font-face { src: url(../fonts/os-b.ttf); font-family: "ob"; }
+@font-face { src: url(../fonts/os-e.ttf); font-family: "oeb"; }
+@font-face { src: url(../fonts/tb.otf); font-family: "tb"; }
+@font-face { src: url(../fonts/hsb.ttf); font-family: "hsb"; }
+
+body,
+aside,
+.nav-btn,
+.nav-btn span,
+.container,
+.sidebar-open,
+.velocity,
+.hilight,
+.slider-nav,
+.quick-lock-item,
+.navigation li,
+.scroll-down {
+
+	transition: 0.3s;
+	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+
+}
+
+.snail,
+.huge-callout {
+
+	transition: 1s;
+	-o-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+
+}
+
+.slow {
+
+	transition: 0.4s;
+	-o-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+
+}
+
+.average {
+
+	transition: 0.3s;
+	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+
+}
+
+.fast {
+
+	transition: 0.2s;
+	-o-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+
+}
+
+.speedy {
+
+	transition: 0.1s;
+	-o-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+
+}
+
+.hidden {
+
+	opacity: 0;
+	-o-opacity: 0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+
+}
+
+.hidden.visible {
+
+	opacity: 1;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+
+}
+
+.hilight.active {
+
+	color: #FFA600;
+
+}
+
+.return {
+
+	color: red;
+	left: 40px;
+	position: fixed;
+	top: 40px;
+	z-index: 1000;
+
+}
+
+body {
+
+	background: url(http://subtlepatterns.com/patterns/broken_noise.png) fixed;
+	font-family: "or", Arial, Helvetica, sans-serif;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	width: 100%;
+
+}
+
+body.open {
+
+	left: 0px;
+	position: absolute;
+	right: 320px;
+	width: calc(100% - 320px);
+
+}
+
+aside {
+
+	background: url(http://subtlepatterns.com/patterns/broken_noise.png) fixed;
+	bottom: 0px;
+	height: 100%;
+	position: fixed;
+	right: -320px;
+	top: 0px;
+	width: 320px;
+	z-index: 900;
+
+}
+
+aside.open {
+
+	right: 0px;
+
+}
+
+.navigation {
+
+	border-top: 1px solid rgba(0,0,0,0.25);
+	float: left;
+	height: auto;
+	list-style: none;
+	margin: 120px 0px 0px 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+
+.navigation li.active {
+
+	color: #FFA600;
+
+}
+
+.navigation li {
+
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	color: #fff;
+	cursor: pointer;
+	float: left;
+	font-family: "ob";
+	font-size: 11px;
+	font-weight: normal;
+	height: 44px;
+	line-height: 44px;
+	margin: 0px;
+	padding: 0px 40px;
+	width: calc(100% - 80px);
+
+}
+
+.navigation li i {
+
+	margin-right: 10px;
+
+}
+
+.navigation li .fa-dot-circle-o {
+
+	color: #FFA600;
+
+}
+
+.navigation li:hover {
+
+	background: rgba(0,0,0,0.25);
+
+}
+
+.addthis_toolbox {
+
+	bottom: 40px;
+	left: 40px;
+	position: absolute;
+	right: 40px;
+	width: calc(100% - 80px);
+
+}
+
+.addthis_toolbox h3 {
+
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	color: #fff;
+	font-family: "ob";
+	font-size: 11px;
+	font-weight: normal;
+	height: 44px;
+	line-height: 44px;
+	margin: 0px 0px 15px 0px;
+
+}
+
+.sidebar-header {
+
+	color: #fff;
+	float: left;
+	font-family: "ob";
+	font-size: 15px;
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	margin: 40px;
+
+}
+
+.identity {
+
+	height: auto;
+	left: 0px;
+	margin: 0px;
+	padding: 30px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: calc(100% - 60px);
+	z-index: 1000;
+
+}
+
+.logo {
+
+	float: left;
+
+}
+
+.nav-logo {
+
+	height: 40px;
+	left: 40px;
+	position: absolute;
+	top: 37px;
+
+}
+
+.nav-btn {
+
+	position: fixed;
+
+}
+
+.nav-close-btn {
+
+	position: absolute;
+
+}
+
+.nav-btn,
+.nav-close-btn {
+
+	background: transparent;
+	border: 0px;
+	border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+	font-size: 21px;
+	height: 40px;
+	line-height: 37px;
+	margin: 0px;
+	outline: none;
+	overflow: hidden;
+	padding: 0px 10px;
+	text-align: center;
+	top: 40px;
+	right: 30px;
+	width: auto;
+	z-index: 1000;
+
+}
+
+.nav-btn span {
+
+	float: right;
+	font-family: "ob";
+	font-size: 15px;
+	margin-left: 10px;
+	text-transform: uppercase;
+
+}
+
+.nav-btn.invert {
+
+	color: #333;
+
+}
+
+.nav-btn.invert:hover {
+
+	color: #fff;
+
+}
+
+.nav-btn:hover,
+.nav-close-btn:hover {
+
+	background: #FFA600;
+	cursor: pointer;
+
+}
+
+section {
+
+	clear: both;
+	display: block;
+	float: left;
+	height: auto;
+	margin: 0px;
+	min-height: 100%;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+
+}
+
+.dagger {
+
+	font-size: 15px;
+	position: absolute;
+	right: 0px;
+	top: -15px;
+
+}
+
+#content-intro {
+
+	height: 100%;
+	width: 100%;
+
+}
+
+.intro-copy {
+
+	color: #fff;
+	font-family: "oeb";
+	font-size: 24px;
+	height: 50px;
+	left: 0px;
+	line-height: 50px;
+	margin: 0px 25%;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+	top: 40%;
+	width: 50%;
+	z-index: 100;
+
+}
+
+.intro-callout {
+
+	color: #fff;
+	float: left;
+	font-family: "hsb";
+	font-size: 64px;
+	font-weight: normal;
+	left: 50%;
+	letter-spacing: 1px;
+	line-height: 80px;
+	margin: 40px 0px 0px -25%;
+	padding: 0px;
+	position: absolute;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+	width: 50%;
+	z-index: 1000;
+}
+
+.intro-callout img {
+
+	float: left;
+	width: 100%;
+
+}
+
+.introduction {
+
+	background: #000;
+
+}
+
+.color-geometry {
+
+	background: #000;
+	bottom: 0px;
+	height: 400%;
+	left: 0px;
+	opacity: 0.5;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+
+}
+
+.color-overlay {
+
+	background: url("../images/warrior-home.jpg") center center fixed no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+	opacity: 0.5;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+
+}
+
+.scroll-down {
+
+	background: rgba(0,0,0,0.5);
+	border: 2px solid #fff;
+	border-radius: 100%;
+	bottom: 40px;
+	color: #fff;
+	height: 40px;
+	left: 50%;
+	line-height: 40px;
+	margin: 0px 0px 0px -20px;
+	position: absolute;
+	text-align: center;
+	width: 40px;
+	z-index: 100;
+
+}
+
+.scroll {
+
+	left: -60px;
+	position: absolute;
+
+}
+
+.down {
+
+	position: absolute;
+	right: -62px;
+
+}
+
+.scroll-down:hover {
+
+	background: #121212;
+	border: 2px solid #fff;
+	bottom: 35px;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px 0px 0px -25px;
+	width: 50px;
+
+}
+
+.fly-casting-stand {
+
+	background: url("http://www.everettpotter.com/wp-content/uploads/2010/09/6a00d8341c91bb53ef0115701c18d4970b-pi.jpg") center center fixed no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+#content-fly-casting-stand {
+
+	left: 80px;
+	position: absolute;
+	top: -35%;
+	width: 35%;
+
+}
+
+.grab-handles {
+
+	background: url("../images/grab-handles.jpg") center center no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+.header-white {
+
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+	color: #fff;
+	font-family: "oeb";
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0px 0px 40px 0px;
+	padding: 0px 0px 20px 0px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.35);
+	text-transform: uppercase;
+
+}
+
+.copy-white {
+
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: justify;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.35);
+
+}
+
+.header-black {
+
+	border-bottom: 1px solid #ccc;
+	color: #333;
+	font-family: "oeb";
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 20px 0px;
+	text-transform: uppercase;
+
+}
+
+.copy-black {
+
+	color: #333;
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+	text-align: justify;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.huge-callout {
+
+	color: #fff;
+	font-family: "tb";
+	font-size: 160px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.callout-white {
+
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+
+.callout-black {
+
+	color: #333;
+
+}
+
+#content-grab-handles {
+
+	position: absolute;
+	top: -90%;
+	right: 160px;
+	text-align: right;
+	width: 40%;
+
+}
+
+.quick-lock {
+
+	background: url(http://subtlepatterns.com/patterns/ticks.png) fixed;
+
+}
+
+.quick-lock-item {
+
+	background: rgba(0,0,0,0.5);
+	height: 240px;
+	position: absolute;
+	width: 240px;
+
+}
+
+#quick-lock-item-1 {
+
+	left: 40px;
+	top: 40px;
+
+}
+
+#quick-lock-item-2 {
+
+	right: 40px;
+	top: 40px;
+
+}
+
+#quick-lock-item-3 {
+
+	bottom: 80px;
+	left: 240px;
+
+}
+
+.quick-lock-floor {
+
+	background: url(http://us.cdn4.123rf.com/168nwm/hospitalera/hospitalera0811/hospitalera081100194/3808042-dirty-metal-diamond-plate-seamlessly-tillable.jpg);
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	width: 720px;
+
+}
+
+#content-quick-lock {
+
+	bottom: 80px;
+	height: calc(100% - 111px);
+	position: absolute;
+	right: 160px;
+	top: 40px;
+	left: 800px;
+	width: calc(100% - 960px);
+
+}
+
+.before-after {
+
+	background: url(http://subtlepatterns.com/patterns/broken_noise.png) fixed;
+
+}
+
+.before-after-options {
+
+	bottom: 40px;
+	display: none;
+	height: calc(100% - 160px);
+	position: absolute;
+	right: 40px;
+	top: 120px;
+	width: 20px;
+	z-index: 500;
+
+}
+
+.color-option {
+
+	border: 1px solid rgba(255,255,255, 0.75);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+	clear: both;
+	float: left;
+	height: 20px;
+	margin: 0px 0px 10px 0px;
+	width: 20px;
+
+}
+
+.switch-slider {
+
+	background: #FFA600;
+	color: #fff;
+	cursor: ew-resize;
+	font-family: "ob";
+	font-size: 20px;
+	font-weight: normal;
+	height: 60px;
+	left: 25%;
+	line-height: 60px;
+	margin: -30px 0px 0px -75px;
+	padding: 0px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 50%;
+	width: 150px;
+	z-index: 800;
+
+}
+
+.switch-slider .right-arrow {
+
+	float: right;
+	font-size: 21px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
+
+}
+
+.switch-slider .left-arrow {
+
+	float: left;
+	font-size: 21px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+
+}
+
+.before {
+
+	background: url("../images/after-test.png") center center fixed #333 no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	border-right: 1px solid rgba(0,0,0,0.25);
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	width: 25%;
+	z-index: 200;
+
+}
+
+.after {
+
+	background: url("http://www.ford.com/resources/ford/general/microsites/f150reveal/assets/materials/desktop/alum_and_steel_aluminum.jpg") center center fixed no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+
+}
+
+.slider-container {
+
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+
+}
+
+.slider-nav {
+
+	background: transparent;
+	bottom: 0px;
+	cursor: pointer;
+	height: 120px;
+	line-height: 120px;
+	margin: -60px 0px 0px 0px;
+	padding: 0px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 120px;
+	z-index: 200;
+
+}
+
+
+.slider-nav i {
+
+	background: transparent;
+	bottom: 0px;
+	color: #fff;
+	font-size: 40px;
+	height: 120px;
+	left: 0px;
+	line-height: 120px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	top: 0px;
+	width: 100%;
+
+}
+
+.slider-nav-left {
+
+	left: 0px;
+
+}
+
+.slider-nav-right {
+
+	right: 0px;
+
+}
+
+.slider {
+
+	box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.75);
+	-o-box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.75);
+	webkit-box-shadow: 0px 0px 60px 10px rgba(0,0,0,0.75);
+	float: left;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: auto;
+
+}
+
+.slide-copy {
+
+	background: #fff;
+	bottom: 40px;
+	font-size: 14px;
+	height: auto;
+	left: 40px;
+	line-height: 18px;
+	margin: 0px;
+	max-width: calc(50% - 40px);
+	padding: 11px 15px;
+	position: absolute;
+	width: auto;
+	z-index: 500;
+
+}
+
+.slide {
+
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+
+}
+
+.slide img {
+
+	bottom: 0px;
+	left: 0px;
+	min-height: 100%;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	z-index: 0;
+
+}
+
+.boat-floors {
+
+	background: url(http://wallpaperscraft.com/image/river_ripples_water_15152_1920x1200.jpg?orig=1) center center fixed no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+.geometry-container {
+
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+
+}
+
+.geometry {
+
+	background: #fff;
+	bottom: 0px;
+	height: 1px;
+	left: -30%;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	top: 200%;
+	width: 200%;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+	transform: rotate(-45deg);
+
+}
+
+.boat-cutout {
+
+	background: url(http://www.pavatimarine.com/files/images/pavatimarine-boat-model-warrior-large.png) center center no-repeat;
+	background-size: contain;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	height: 140%;
+	margin: 0px;
+	min-width: 315px;
+	padding: 0px;
+	position: absolute;
+	right: -100px;
+	top: 170%;
+	width: calc(60%);
+	z-index: 300;
+
+}
+
+#content-boat-floors {
+
+	background: #fff;
+	left: 200px;
+	padding: 40px 40px 0px 40px;
+	position: absolute;
+	top: 140px;
+	width: calc(40% - 80px);
+
+}
+
+.toggle-floors {
+
+	background: #121212;
+	border: 0px;
+	bottom: -100px;
+	color: #fff;
+	font-family: "ob";
+	font-size: 20px;
+	font-weight: normal;
+	height: 60px;
+	left: 0px;
+	line-height: 60px;
+	margin: 0px;
+	padding: 0px 40px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.toggle-floors:hover {
+
+	background: #FFA600;
+	cursor: pointer;
+
+}
+
+.drifter-doors {
+
+	background: url("../images/legacy-drifter-doors.jpg") right top no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+#content-drifter-doors {
+
+	height: auto;
+	padding: 0px;
+	position: absolute;
+	right: 180px;
+	text-align: right;
+	top: -120%;
+	width: 30%;
+
+}
+
+#content-drifter-doors p,
+#content-drifter-doors h1 {
+
+	float: right;
+	text-align: right;
+	width: 100%;
+
+}
+
+.truth-scale {
+
+	background: url("../images/the-truth.jpg") center center fixed no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+#content-truth-scale {
+
+	height: auto;
+	padding: 0px;
+	position: absolute;
+	right: 180px;
+	text-align: right;
+	top: -140%;
+	width: 30%;
+
+}
+
+.rowers-seat {
+
+	background: url("../images/rowers-seat.jpg") 200px center no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+#content-rowers-seat {
+
+	background: url(http://subtlepatterns.com/patterns/broken_noise.png) #121212;
+	bottom: 0px;
+	height: auto;
+	left: 0px;
+	padding: 40px;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	width: 30%;
+
+}
+
+.anchor-nest {
+
+	background: url("../images/anchor-nest.jpg") center center fixed no-repeat #ccc;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+
+#content-anchor-nest {
+
+	background: transparent;
+	height: auto;
+	left: 80px;
+	padding: 0px;
+	position: absolute;
+	text-align: left;
+	top: 160px;
+	width: 40%;
+
+}
+
+@media(max-width:1280px){
+
+	.remove-1280 {
+
+		display: none;
+
+	}
+
+	#content-fly-casting-stand {
+
+		top: -50%;
+
+	}
+
+	#content-grab-handles {
+
+		top: -100%;
+
+	}
+
+	#content-boat-floors {
+
+		left: 40px;
+		top: 40px;
+
+	}
+
+	#content-quick-lock {
+
+		left: calc(40% + 40px);
+		width: calc(60% - 160px);
+
+	}
+
+	.quick-lock-floor {
+
+		width: 40%;
+
+	}
+
+	.quick-lock-item {
+
+		height: 120px;
+		width: 120px;
+
+	}
+
+	#content-drifter-doors,
+	#content-truth-scale {
+
+		width: 50%;
+
+	}
+
+}
+
+@media(max-width:1024px){
+
+	body.open {
+
+		right: 260px;
+		width: calc(100% - 260px);
+
+	}
+
+	aside {
+
+		right: -260px;
+		width: 260px;
+
+	}
+
+	.addthis_toolbox {
+
+		bottom: 25px;
+
+	}
+
+	.remove-1024 {
+
+		display: none;
+
+	}
+
+	#content-fly-casting-stand {
+
+		top: -50%;
+
+	}
+
+	#content-boat-floors {
+
+		left: 40px;
+		top: 40px;
+
+	}
+
+	#content-quick-lock {
+
+		left: calc(40% + 40px);
+		width: calc(60% - 160px);
+
+	}
+
+	.quick-lock-floor {
+
+		width: 40%;
+
+	}
+
+	.quick-lock-item {
+
+		height: 120px;
+		width: 120px;
+
+	}
+
+	#content-drifter-doors,
+	#content-truth-scale {
+
+		width: 50%;
+
+	}
+
+}
+
+@media(max-width:800px){
+
+	body.open {
+
+		right: 0px;
+		width: 100%;
+
+	}
+
+	aside {
+
+		right: -260px;
+		width: 260px;
+
+	}
+
+	.slide-copy {
+
+		right: 40px;
+		max-width: calc(100% - 110px);
+		width: calc(100% - 110px);
+
+	}
+
+	#content-grab-handles {
+
+		right: 120px;
+		width: 50%;
+
+	}
+
+	#content-quick-lock {
+
+		top: 20px;
+
+	}
+
+	#content-fly-casting-stand {
+
+		top: -62%;
+		width: 50%;
+
+	}
+
+}

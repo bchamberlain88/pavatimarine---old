@@ -1,0 +1,14 @@
+Options -Indexes
+RewriteEngine on
+RewriteRule ^blog$ blog.php [L]
+RewriteRule ^boats$ boats.php [L]
+RewriteRule ^about$ about.php [L]
+RewriteRule ^gallery$ gallery.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^for-sale$ for-sale.php [L]
+
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteRule ^boats/([^/.]+)$ /boats.php?b=$1 [L]
+RewriteRule ^blog/([^/.]+)$ /blog.php?b=$1 [L]
+RewriteRule ^gallery/([^/.]+)$ /gallery.php?i=$1 [L]
