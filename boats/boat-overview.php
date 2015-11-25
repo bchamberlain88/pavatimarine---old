@@ -57,10 +57,10 @@ echo "<div class='tab-content clear-bottom'>";
  echo "</div>"; ?>
 
 <?php echo "<div class='sixteen columns tab-content clear-content'>"; ?>
-<a class="pdf-download-button" href="http://www.pavatimarine.com/pdf/pm-buyers-guide-2014.pdf" target="new">
+<!-- <a class="pdf-download-button" href="http://www.pavatimarine.com/pdf/pm-buyers-guide-2014.pdf" target="new">
     <img src="http://www.pavatimarine.com/pdf/pdf-64.png" />
     Download the Pavati Marine 2014 Buyer’s Guide
-</a>
+</a> -->
 <h2>standard features</h2>
 <?php if($_SESSION['admin']['rank'] == 1){echo "<i class='admin-manage header-manage manage-features' alt='Manage standard features' title='Manage standard features'></i>";}else{}
 echo "</div>";

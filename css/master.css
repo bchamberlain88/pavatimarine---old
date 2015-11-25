@@ -211,7 +211,7 @@ position:absolute; top:15%; width:100%; z-index:10;  }
 header { background:#374348; border-bottom:1px solid #222; height:70px; line-height:70px; overflow:hidden; position:fixed; top:0; width:100%; z-index:500;
 box-shadow:0 -1px 0 #3e4b51 inset, 0 0 15px #384348 inset; }
 .logo { background:url("../imgs/pavati-logo.png") center center no-repeat; float:left; height:36px; margin:17px 30px 17px 10px; position:relative; width:112px; }
-.navigation { height:36px; float:left; margin:0; position:relative; width:104%; z-index:50; margin-left: -4%; }
+.navigation { height:36px; float:left; margin:0; position:relative; width: 113%; z-index:50; margin-left: -4%; }
 .navigation ul { list-style:none; padding:0; position:relative; }
 .navigation a li, .navigation ul li { color:#FFF; float:left; font-size:13px; font-weight:bold; height:70px; line-height:70px; padding:0 10px; position:relative; text-transform:uppercase; }
 .navigation ul a li:hover,  .navigation ul li:hover { color:#3AA1BE; cursor:pointer; }

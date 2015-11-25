@@ -309,3 +309,17 @@
 [13-Nov-2015 21:08:31 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
 [13-Nov-2015 21:08:31 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
 [13-Nov-2015 21:08:32 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:46 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:46 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:47 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/boats/index.php on line 4
+[23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89

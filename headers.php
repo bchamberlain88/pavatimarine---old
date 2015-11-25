@@ -9,8 +9,9 @@
     <a href="http://www.pavatimarine.com/for-sale/"><li class="nav-link">Boats For Sale</li></a>
     <a href="http://www.pavatimarine.com/about/"><li class="nav-link">About Pavati</li></a>
     <a href="http://www.pavatimarine.com/blog/"><li class="nav-link">Blog</li></a>
-    <a href="http://www.pavatimarine.com/gallery/"><li class="nav-link">Media</li></a>
+    <a href="http://www.pavatimarine.com/gallery/"><li class="nav-link">Gallery</li></a>
     <a href="http://www.pavatimarine.com/contact"><li class="nav-link">Contact</li></a>
+    <a href="http://www.pavatimarine.com/about/testimonials"><li class="nav-link">Testimonials</li></a>
 
     <div class="header-right-links">
         <a class="top-right-nav-link" href="<?php echo $site; ?>test-row">Take A Test Row</a>

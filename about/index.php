@@ -62,18 +62,41 @@ if($_SESSION['admin']['rank'] == 1){
 	echo "<div class='sixteen columns about-content textEdit' id='about-content-".$rowabout['abouttabid']."' title='Click anywhere to edit this content'>".html_entity_decode($rowabout['aboutcontent'])."</div>";
 
 }else{ echo "<div class='twelve columns about-content' id='about-content-".$rowabout['abouttabid']."'>";
+     if($p == "pro-staff"){
+        echo "<h3>Pro Staff</h3>";
 
-      if($p == "testimonials"){ ?>
+        $getProstaff = mysql_query("SELECT * FROM prostaff ORDER BY id DESC");
+        while($prostaff = mysql_fetch_assoc($getProstaff)){
+            $id = $prostaff['id'];
+            $person = $prostaff['person'];
+            $location = $prostaff['location'];
+            $text = $prostaff['text'];
+            $service = $prostaff['service'];
+            $website = $prostaff['website'];
+            $email = $prostaff['email'];
 
+            echo "<p id='prostaff-$id' style='border-bottom:1px dashed #ccc; margin:0 0 20px; padding:0 0 10px 0; width:100%;'>";
+            echo "<b>$person"; if($email != NULL){ echo ", <a href='mailto:$email'>$email</a>"; }else{} if($website != NULL){ echo "<br><a href='".$website."'>".$website."</a>"; }else{} echo "</b><br>";
+            echo "<i>".$location."</i><br>";
+            echo "<br>$text<br><br>";
+            $getImages = mysql_query("SELECT * FROM prostaff_img WHERE guide_name = '$person'");
+            if(mysql_num_rows($getImages) == 0){}else{
+                while($image = mysql_fetch_assoc($getImages)){
+                    echo "<a class='testimonial-quarter-photo fancybox'href='../imgs/prostaff/".$image['image']."' rel='group'>
+                    <img class='testimonial-photo hoverZoomLink' src='../imgs/prostaff/".$image['image']."' /></a>";
+                }
+            }
+
+            echo "</p>";
+
+        }
+    }
+    if($p == "testimonials"){ ?>
         <?php $approve = $_GET['approve'];
-
         if($approve){
-
             $checkApproval = mysql_query("SELECT * FROM testimonials WHERE verify = '$approve'");
             if(mysql_num_rows($checkApproval) > 0){
-
                 $testimonial = mysql_fetch_assoc($checkApproval);
-
                 if($testimonial['approved'] == 0){
                     echo "<span class='return-success'>Success: The testimonial has been approved!</span>";
                     mysql_query("UPDATE testimonials SET approved = 1 WHERE verify = '$approve'");
@@ -81,13 +104,9 @@ if($_SESSION['admin']['rank'] == 1){
                 }else{
                     echo "<span class='return-error'>Error: That testimonial has already been approved</span>";
                 }
-
             }else{ echo "<span class='return-error'>Error: That testimonial does not exist</span>"; }
-
         }else{}
-
         if($_POST['submit']){
-
             $verify = $_SESSION['testimonial'];
             $text = mysql_real_escape_string($_POST['testimonial']);
             $person = mysql_real_escape_string($_POST['name']);
@@ -98,10 +117,8 @@ if($_SESSION['admin']['rank'] == 1){
             $location = mysql_real_escape_string($_POST['location']);
             $ipaddress = getUserIp();
             $date = date("Y-m-d");
-
             $check_test = mysql_query("SELECT * FROM testimonials WHERE verify = '$verify'");
             if(mysql_num_rows($check_test) == 0){
-
             echo "<span class='return-success'>Success: Your testimonial has been submitted and is awaiting review!</span>";
 
             mysql_query("INSERT INTO testimonials (verify, text, person, email, guide, service, website, location, ipaddress, date) VALUES (\"$verify\", \"$text\", \"$person\", \"$email\", \"$guide\", \"$service\", \"$website\", \"$location\", \"$ipaddress\", \"$date\")")or die(mysql_error());
@@ -167,6 +184,8 @@ echo html_entity_decode($rowabout['aboutcontent'])."</div>"; }
     if(hash == "#add-testimonial"){ var winY = $(document).height();
     $("html,body").animate({scrollTop: winY}, 300, function(){ pause(); });}else{}});
 </script>
+
+
 
 <?php if($_SESSION['admin']['rank'] == 1){ ?>
 
