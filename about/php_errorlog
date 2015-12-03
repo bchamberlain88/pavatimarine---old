@@ -54,3 +54,4 @@
 [23-Nov-2015 10:47:48 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
 [23-Nov-2015 10:47:49 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
 [23-Nov-2015 10:47:49 CST6CDT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/highwayp/public_html/pavatimarine/functions.php on line 89
+[01-Dec-2015 23:17:48 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/highwayp/public_html/pavatimarine/about/index.php on line 85

@@ -723,7 +723,7 @@ a .testimonial-quarter-photo:nth-child(4), .testimonial-quarter-photo:nth-child(
     position: absolute;
     right: 0px;
     text-align: center;
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+    text-shadow: -1px -1px 0 rgba(0,0,0,1),1px 1px 0 rgba(0,0,0,1);
     text-transform: uppercase;
     width: 100%;
 

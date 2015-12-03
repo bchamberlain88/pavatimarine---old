@@ -82,7 +82,7 @@ if($_SESSION['admin']['rank'] == 1){
             $getImages = mysql_query("SELECT * FROM prostaff_img WHERE guide_name = '$person'");
             if(mysql_num_rows($getImages) == 0){}else{
                 while($image = mysql_fetch_assoc($getImages)){
-                    echo "<a class='testimonial-quarter-photo fancybox'href='../imgs/prostaff/".$image['image']."' rel='group'>
+                    echo "<a target='_blank' class='testimonial-quarter-photo fancybox'href='../imgs/prostaff/".$image['image']."' rel='group'>
                     <img class='testimonial-photo hoverZoomLink' src='../imgs/prostaff/".$image['image']."' /></a>";
                 }
             }
