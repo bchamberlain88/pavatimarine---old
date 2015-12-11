@@ -21,13 +21,6 @@
         </ul>
 
         <ul class="fifth-container footer-list">
-            <h1>Discussions</h1>
-            <li class="animate2"><a href="http://www.pavatimarine.com/blog/">All Discussions</a></li>
-            <?php foreach(query("blogcategories", 5) AS $blog){
-            echo "<li class='animate2'><a href='http://www.pavatimarine.com/blog/".$blog['blogcaturl']."'>". ucwords($blog['blogcatname'])."</a></li>"; }?>
-        </ul>
-
-        <ul class="fifth-container footer-list">
             <h1>About Pavati</h1>
             <?php foreach(query("abouttabs", 5) AS $about){
             echo "<li class='animate2'><a href='http://www.pavatimarine.com/about/".$about['abouttaburl']."'>". ucwords($about['abouttab'])."</a></li>"; }?>

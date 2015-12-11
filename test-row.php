@@ -36,16 +36,9 @@ warrior, guardian, legacy, wildcat, destroyer, test row, demo, sales representat
 
 		<div class="container request-container">
 
-			<?php $getrows = mysql_query("SELECT * FROM formtestrow");
-			$numrows = mysql_num_rows($getrows); $rows = 163 + $numrows; ?>
-
-			<div class="sixteen columns">
-				<h1 class="request-header"><span><?php echo $rows; ?></span> test rows taken</h1>
-			</div>
-
 			<div class="sixteen columns">
 				<div class="sixteen columns input-container">
-					<h2>request a test row in a pavati boat</h2>
+					<h2 style="margin-left: 120px;">request a test row in a pavati boat</h2>
 				</div>
 			</div>
 
@@ -57,8 +50,7 @@ warrior, guardian, legacy, wildcat, destroyer, test row, demo, sales representat
 			
 			<div style="margin-top:-15px;" class="five columns input-container">
 				<h2>talk to a sales representitive</h2>
-				<p>Continental :<br><a href="tel:18008665269">1 (800) 866-5269</a><br><br>
-				Alaska :<br><a href="tel:19073989810">1 (907) 398-9810</a></p>
+				<p><a href="tel:5417782650">(541)778-2650</a></p>
 			</div>	
 
 		</div>

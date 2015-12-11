@@ -701,7 +701,7 @@ a .testimonial-quarter-photo:nth-child(4), .testimonial-quarter-photo:nth-child(
 
 }
 
-.video-thumb:hover .video-button {
+.video-thumb .video-button {
 
     opacity: 1;
     -o-opacity: 1;
@@ -726,7 +726,7 @@ a .testimonial-quarter-photo:nth-child(4), .testimonial-quarter-photo:nth-child(
     text-shadow: -1px -1px 0 rgba(0,0,0,1),1px 1px 0 rgba(0,0,0,1);
     text-transform: uppercase;
     width: 100%;
-
+    top: 45px;
 
 }
 
