@@ -11,7 +11,7 @@
     <a href="http://www.pavatimarine.com/blog/"><li class="nav-link">Blog</li></a>
     <a href="http://www.pavatimarine.com/gallery/"><li class="nav-link">Gallery</li></a>
     <a href="http://www.pavatimarine.com/contact"><li class="nav-link">Contact</li></a>
-    <a href="http://www.pavatimarine.com/about/testimonials"><li class="nav-link">Testimonials</li></a>
+    <a href="http://www.pavatimarine.com/about/reviews"><li class="nav-link">Reviews</li></a>
 
     <div class="header-right-links">
         <a class="top-right-nav-link" href="<?php echo $site; ?>test-row">Take A Test Row</a>

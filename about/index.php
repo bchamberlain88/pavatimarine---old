@@ -91,7 +91,7 @@ if($_SESSION['admin']['rank'] == 1){
 
         }
     }
-    if($p == "testimonials"){ ?>
+    if($p == "reviews"){ ?>
         <?php $approve = $_GET['approve'];
         if($approve){
             $checkApproval = mysql_query("SELECT * FROM testimonials WHERE verify = '$approve'");
@@ -151,7 +151,7 @@ if($_SESSION['admin']['rank'] == 1){
             echo "<i>".$location."</i><br>";
             echo "<br>$text<br><br>";
 
-            $getImages = mysql_query("SELECT * FROM testimonial_img WHERE verify = '$ver'");
+            $getImages = mysql_query("SELECT * FROM testimonial_img WHERE testim_id = '$id'");
             if(mysql_num_rows($getImages) == 0){}else{
                 //echo "<div class='test-post-images'>";
                 while($image = mysql_fetch_assoc($getImages)){

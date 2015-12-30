@@ -81,7 +81,7 @@ warrior, guardian, legacy, wildcat, destroyer, new boats, used boats, boats for 
                     </div> <!-- end .info-1 -->
 
                     <div class="callout-info" id="info-2">
-                        Custom Pavati seats make the ride more comfortable for you and your passangers<br>
+                        Custom Pavati seats make the ride more comfortable for you and your passengers<br>
                         <!-- <a href="#">Learn More</a> -->
                         <div class="info-indicator" id="indicator-2"></div>
                     </div> <!-- end .info-2 -->
@@ -93,7 +93,7 @@ warrior, guardian, legacy, wildcat, destroyer, new boats, used boats, boats for 
                     </div> <!-- end .info-3 -->
 
                     <div class="callout-info" id="info-4">
-                        The patented Quick-Lock Floor System&trade; makes orgnaization a snap<br>
+                        The patented Quick-Lock Floor System&trade; makes organization a snap<br>
                         <!-- <a href="#">Learn More</a> -->
                         <div class="top-info-indicator" id="indicator-4"></div>
                     </div> <!-- end .info-4 -->
@@ -239,7 +239,7 @@ warrior, guardian, legacy, wildcat, destroyer, new boats, used boats, boats for 
                 <!-- youtube video playlist -->
                 <div class="noSelect half-container" style="margin-top:16px;">
                     <!-- <iframe width="465" height="292" src="//www.youtube.com/embed/videoseries?list=PLfdLNTjEJUW7Gfu2oT0-q_ZshshhCbCBf" frameborder="0" allowfullscreen="true"></iframe> -->
-                    <iframe class='video' width="465" height="292" src="//www.youtube.com/embed/ErWKkf8I2jY" style="z-index:0;" frameborder="0" allowfullscreen></iframe>
+                    <iframe class='video' width="465" height="292" src="//www.youtube.com/embed/nKmFK2T7Z2Q" style="z-index:0;" frameborder="0" allowfullscreen></iframe>
                     <a class="animate2 border3 test-row-button" href="./boats/">View Boat<span class='hide'> Model</span>s</a>
                 </div>
                 
