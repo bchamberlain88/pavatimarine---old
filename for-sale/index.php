@@ -59,18 +59,15 @@ If we don't answer immediately, then please leave a message and we will get back
     <a class="sale-sort" id="sort-used">Used Boats</a>
 </div>
 
-<div class='for-sale-container' data-tag='used' data-sold='true'>
-    <h3>Used 2013 17'x61" Legacy Drift Boat</h3>
+<div class='for-sale-container' data-tag='new' data-sold='false'>
+    <h3>New 2016 Pavati Guardian 17' x 61"</h3>
     <div class='for-sale-slider'>
         <div class='fs-slider'>
-            <?php listImages('../imgs/boats/for-sale/2013-legacy-17x61-pavati-used-drift-boat-for-sale/', 'fs-slide', 'slideimage-'); ?>
+            <?php listImages('../imgs/boats/for-sale/new-2016-pavati-guardian/', 'fs-slide', 'slideimage-'); ?>
         </div>
     </div>
     <div class='for-sale-information'>
-        <p>All set up and just in time for Summer! 
-The boat was used for the TV show Day One Outdoors, it has all the bells and whistles and is in great condition.  Cody has a new boat on order so it is time to sell this one. Used 2013 17'x61'' Legacy Drift boat  ( Elite Diamond punched Lower, custom wrap upper exterior) Elite embossed diamond plated lower -Raw Aluminum, Custom wrap upper exterior, Silver hammertone powder coated interior 
-Black Texture powder coated floors and boxes &amp; shaved diamonds, Front port side door, Rear starboard side door, Front starboard side rod storage tube, Rear port rod storage tube, 3 PAVATI Element Passenger seats on dry storage boxes, 1 PAVATI Padded Row Seat on Dry storage 3/4 walk around, Removable back rest, Accessory Tower with tackle storage and rod rack, Rod holder floor box with leader roller, Casting stand line deck with pizza oven, Rear adjustable casting stand, 6 stainless cup holders 
-Vacuumed sealed UHMW bottom, Manual anchor release with Lee lock rope stop ,locking anchor nest, 35 lb anchor, 40' rope, 12 position oar lock block, Removable Full level Diamond plate floor ( powder coated and shaved ), Quick lock seat system, Extra large magnetic side storage compartments w/ The Truth Ruler, Radius Transom, Dimpled bottom, Motor Ready Transom, Swivel Stainless oar locks, North West Aluminum trailer- Standard</p>
+        <p>Front port side door, Rear starboard side door, 3 Pavati Element passenger seats with dry storage boxes, Padded row seat with dry storage, Full level diamond plate floor, UHMW bottom Pizza oven, Starboard side rod storage tube, Port side Rod storage tube, In-floor fish box, Manual anchor release, Aluminum trailer, Sawyer square top oars, and much more! Call for pricing 541 778 2650</p>
     </div>
 </div>
 
@@ -111,7 +108,7 @@ Vacuumed sealed UHMW bottom, In floor anchor release with, locking anchor nest, 
     </div>
 </div>
 
-<div class='for-sale-container' data-tag='used' data-sold='false'>
+<div class='for-sale-container' data-tag='used' data-sold='true'>
     <h3>Used 2011 Pavati Legacy 17' x 61"</h3>
     <div class='for-sale-slider'>
         <div class='fs-slider'>
@@ -123,6 +120,22 @@ Vacuumed sealed UHMW bottom, In floor anchor release with, locking anchor nest, 
 adjustable rear casting stand. Call Steve Crisler @ 541-778-2650 for pricing and more information</p>
     </div>
 </div>
+
+<div class='for-sale-container' data-tag='used' data-sold='true'>
+    <h3>Used 2013 17'x61" Legacy Drift Boat</h3>
+    <div class='for-sale-slider'>
+        <div class='fs-slider'>
+            <?php listImages('../imgs/boats/for-sale/2013-legacy-17x61-pavati-used-drift-boat-for-sale/', 'fs-slide', 'slideimage-'); ?>
+        </div>
+    </div>
+    <div class='for-sale-information'>
+        <p>All set up and just in time for Summer! 
+The boat was used for the TV show Day One Outdoors, it has all the bells and whistles and is in great condition.  Cody has a new boat on order so it is time to sell this one. Used 2013 17'x61'' Legacy Drift boat  ( Elite Diamond punched Lower, custom wrap upper exterior) Elite embossed diamond plated lower -Raw Aluminum, Custom wrap upper exterior, Silver hammertone powder coated interior 
+Black Texture powder coated floors and boxes &amp; shaved diamonds, Front port side door, Rear starboard side door, Front starboard side rod storage tube, Rear port rod storage tube, 3 PAVATI Element Passenger seats on dry storage boxes, 1 PAVATI Padded Row Seat on Dry storage 3/4 walk around, Removable back rest, Accessory Tower with tackle storage and rod rack, Rod holder floor box with leader roller, Casting stand line deck with pizza oven, Rear adjustable casting stand, 6 stainless cup holders 
+Vacuumed sealed UHMW bottom, Manual anchor release with Lee lock rope stop ,locking anchor nest, 35 lb anchor, 40' rope, 12 position oar lock block, Removable Full level Diamond plate floor ( powder coated and shaved ), Quick lock seat system, Extra large magnetic side storage compartments w/ The Truth Ruler, Radius Transom, Dimpled bottom, Motor Ready Transom, Swivel Stainless oar locks, North West Aluminum trailer- Standard</p>
+    </div>
+</div>
+
 
 <div class='for-sale-container' data-tag='used' data-sold='true'>
     <h3>Used 2012 Pavati 17' x 61" Custom Wrapped Guardian</h3>
