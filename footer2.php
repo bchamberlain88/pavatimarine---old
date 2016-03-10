@@ -35,11 +35,13 @@
         </ul>
 
         <ul class="fifth-container footer-list">
-            <h1>Useful Links</h1>
-            <li class="animate2"><a href="http://www.pavatimarine.com/resources/">Fishing Resources</a></li>
-            <li class="animate2"><a href="http://www.pavatimarine.com/gallery/">Photo Gallery</a></li>
-            <li class="animate2"><a href="http://www.pavatimarine.com/test-row">Take A Test Row</a></li>
-            <li class="animate2"><a class="privacy-policy">Privacy Policy</a></li>
+            <h1>Links</h1>
+            <li class="animate2"><a target="_blank" href="http://www.pavati.com/">Pavati Wakeboats</a></li>
+            <li class="animate2"><a target="_blank" href="http://www.highwayproducts.com/">Highway Products</a></li>
+            <li class="animate2"><a target="_blank" href="http://www.pavatimarine.com/resources/">Fishing Resources</a></li>
+            <li class="animate2"><a target="_blank" href="http://www.pavatimarine.com/gallery/">Photo Gallery</a></li>
+            <li class="animate2"><a target="_blank" href="http://www.pavatimarine.com/test-row">Take A Test Row</a></li>
+            <li class="animate2"><a target="_blank" class="privacy-policy">Privacy Policy</a></li>
         </ul>
 
     </div>

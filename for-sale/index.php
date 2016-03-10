@@ -59,7 +59,7 @@ If we don't answer immediately, then please leave a message and we will get back
     <a class="sale-sort" id="sort-used">Used Boats</a>
 </div>
 
-<div class='for-sale-container' data-tag='new' data-sold='false'>
+<div class='for-sale-container' data-tag='new' data-sold='true'>
     <h3>New 2016 Pavati Guardian 17' x 61"</h3>
     <div class='for-sale-slider'>
         <div class='fs-slider'>
@@ -71,7 +71,7 @@ If we don't answer immediately, then please leave a message and we will get back
     </div>
 </div>
 
-<div class='for-sale-container' data-tag='used' data-sold='false'>
+<div class='for-sale-container' data-tag='used' data-sold='true'>
     <h3>Used 2012 Pavati Guardian 16' x 61"</h3>
     <div class='for-sale-slider'>
         <div class='fs-slider'>
