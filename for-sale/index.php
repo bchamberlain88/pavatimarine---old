@@ -41,7 +41,7 @@ warrior, guardian, legacy, wildcat, destroyer, for sale, used boats, new boats">
 <p>Thinking about buying a drift boat? Would you like to cruise down the river in your very own Pavati drift boat?
 Take a look at our inventory, or call us to put together a package that fits your boating and fishing needs and desires.
 It only takes a few minutes and it will start the ball rolling. During the week our normal hours of operation are from 7:00 AM to 5:00 PM.
-We are located in Oregon, but you can call our toll free number at <a href="tel:18008665269">1-800-866-5269</a>.</p>
+We are located in Oregon, but you can call our toll free number at <a href="tel:18774022388">1-877-402-2388</a>.</p>
 </div>
 
 <div class="eight columns home-content">
@@ -58,6 +58,19 @@ If we don't answer immediately, then please leave a message and we will get back
     <a class="sale-sort" id="sort-demo">Demo Boats</a>
     <a class="sale-sort" id="sort-used">Used Boats</a>
 </div>
+
+<div class='for-sale-container' data-tag='new' data-sold='true'>
+    <h3>New 2016 Pavati Warrior 17' x 61"</h3>
+    <div class='for-sale-slider'>
+        <div class='fs-slider'>
+            <?php listImages('../imgs/boats/for-sale/new-2016-17x61-warrior/', 'fs-slide', 'slideimage-'); ?>
+        </div>
+    </div>
+    <div class='for-sale-information'>
+        <p>Interior powder coated Silver Vein Hammertone, exterior powder coated Black with metallic flake in clear coat, 1 Front Port side door, 1 Rear starboard side door, Pizza Oven Line deck with 6 cup holders ( 10 total), Elite Diamond punched sides, 2Built in rod storage tubes, True Full level diamond plate floor powder coated Gun Metal Grey, Patented Quick Lock seat system, In- floor Fish box with removable bait box, 12 position oar lock block, Jeweled Gunnel Rail, 2 Custom PAVATI Element seats on dry storage boxes, 1 Custom PAVATI Element Row seat on dry storage box, Accessory Tower with tackle and rod storage, Rod holder floor box with leader roller, Manual style anchor release with patented locking anchor nest and 35 lb. Anchor, 2 Stainless Steel oar locks, 2 Sawyer Square top Oars, North West Aluminum trailer. Call for pricing 541 778 2650</p>
+    </div>
+</div>
+
 
 <div class='for-sale-container' data-tag='new' data-sold='true'>
     <h3>New 2016 Pavati Guardian 17' x 61"</h3>

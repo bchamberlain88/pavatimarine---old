@@ -48,7 +48,7 @@ warrior, guardian, legacy, wildcat, destroyer">
 				<div class="contact-address">
 					<h1>Pavati Marine Drift Boats</h1>
 					<p><b>Address: </b><a target="new" href="http://maps.google.com/maps?ie=UTF-8&gl=us&daddr=7905+Agate+Rd,+White+City,+OR+97503&saddr=&panel=1&f=d&fb=1&dirflg=d&geocode=%3BKXOrh6nCYs9UMaMV4poQp7gq&ei=38vNUb2-IaLTiwK7z4HQBw&ved=0CCsQ-A8wAA">7905 Agate Road. White City, Oregon 97503</a>
-					<b>Phone Number: </b>1-800-866-5269
+					<b>Phone Number: </b>1-877-402-2388
 					<b>Hours: </b>6AM - 7PM PST Monday - Friday</p>
 				</div>
 

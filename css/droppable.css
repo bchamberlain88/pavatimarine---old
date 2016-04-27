@@ -679,7 +679,7 @@ a .testimonial-quarter-photo:nth-child(4), .testimonial-quarter-photo:nth-child(
     -moz-transition: 0.3s;
     -webkit-transition: 0.3s;
     width: 60px;
-    z-index: 100;
+    z-index: 10;
 
 }
 

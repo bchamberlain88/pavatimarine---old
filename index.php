@@ -11,7 +11,7 @@ if($_GET['view'] && $_GET['view'] == "full"){ $_SESSION['checkmobile'] = true; }
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
     
 <head> <!-- BASIC PAGE NEEDS -->
-<title>Pavati Marine - All Aluminum Drift Boats For Sale</title>
+<title>Drift Boats - Pavati Marine</title>
 <base href="http://www.pavatimarine.com">
 <link rel="canonical" href="http://www.pavatimarine.com">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -28,6 +28,49 @@ warrior, guardian, legacy, wildcat, destroyer, new boats, used boats, boats for 
 <link rel="stylesheet" href="./css/mobile.css">
 <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
 <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '769528483148690');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=769528483148690&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Pavati Marine",
+    "logo": "http://www.pavatimarine.com/files/images/Pavati-Marine-Nav-Logo.png",
+    "url": "http://www.pavatimarine.com/",
+    "sameAs": [
+        "https://www.facebook.com/pavatifishingboats",
+        "https://twitter.com/PavatiMarine",
+        "https://www.instagram.com/pavatimarine/",
+        "https://www.youtube.com/channel/UCqP9agzW2iJ0J5s2SS7RsFw"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-877-402-2388",
+        "contactType": "Sales",
+        "contactOption": "TollFree",
+        "areaServed": "",
+        "availableLanguage": "English"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "addressLocality": "White City",
+        "addressRegion": "OR",
+        "postalCode": "97503",
+        "streetAddress": "7905 Agate Rd"
+    }
+}</script>
 </head><body>
 
 <!-- INCLUDE THE MAIN NAVIGATION -->
@@ -278,7 +321,7 @@ warrior, guardian, legacy, wildcat, destroyer, new boats, used boats, boats for 
         $(".thanks-shadow").delay(3000).fadeOut(500);
     }else{
         if(url == "error"){
-        $("body").append("<div class='thanks-shadow'><div class='thanks-overlay'><h1 style='padding-bottom:26px;'>It looks like you've already contacted us. If you need assistance, please call us at 1-800-866-5269</h1></div></div>");
+        $("body").append("<div class='thanks-shadow'><div class='thanks-overlay'><h1 style='padding-bottom:26px;'>It looks like you've already contacted us. If you need assistance, please call us at 1-877-402-2388</h1></div></div>");
         $(".thanks-shadow, .thanks-overlay").show();
         $(".thanks-overlay").delay(2500).fadeOut(500);
         $(".thanks-shadow").delay(3000).fadeOut(500);
