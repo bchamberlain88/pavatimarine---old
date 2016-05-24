@@ -41,13 +41,13 @@ warrior, guardian, legacy, wildcat, destroyer, for sale, used boats, new boats">
 <p>Thinking about buying a drift boat? Would you like to cruise down the river in your very own Pavati drift boat?
 Take a look at our inventory, or call us to put together a package that fits your boating and fishing needs and desires.
 It only takes a few minutes and it will start the ball rolling. During the week our normal hours of operation are from 7:00 AM to 5:00 PM.
-We are located in Oregon, but you can call our toll free number at <a href="tel:18774022388">1-877-402-2388</a>.</p>
+We are located in Oregon, but you can call our toll free number at <a href="tel:18774022388">1-877-402-2388 (Toll Free)</a>.</p>
 </div>
 
 <div class="eight columns home-content">
 <p>After hours or weekends? No problem. That's a key part of our customer service.
 We make ourselves available when you need us and take calls until 9:00 PM, all seven days of the week, (sometimes even later).
-Please call this number after 5:00 PM and on weekends - <a href="tel:15417782650">1-541-778-2650</a>.
+Please call this number after 5:00 PM and on weekends - <a href="tel:18774022388">1-877-402-2388 (Toll Free)</a>.
 If we don't answer immediately, then please leave a message and we will get back to you shortly.</p>
 </div>
 
@@ -67,7 +67,7 @@ If we don't answer immediately, then please leave a message and we will get back
         </div>
     </div>
     <div class='for-sale-information'>
-        <p>Interior powder coated Silver Vein Hammertone, exterior powder coated Black with metallic flake in clear coat, 1 Front Port side door, 1 Rear starboard side door, Pizza Oven Line deck with 6 cup holders ( 10 total), Elite Diamond punched sides, 2Built in rod storage tubes, True Full level diamond plate floor powder coated Gun Metal Grey, Patented Quick Lock seat system, In- floor Fish box with removable bait box, 12 position oar lock block, Jeweled Gunnel Rail, 2 Custom PAVATI Element seats on dry storage boxes, 1 Custom PAVATI Element Row seat on dry storage box, Accessory Tower with tackle and rod storage, Rod holder floor box with leader roller, Manual style anchor release with patented locking anchor nest and 35 lb. Anchor, 2 Stainless Steel oar locks, 2 Sawyer Square top Oars, North West Aluminum trailer. Call for pricing 541 778 2650</p>
+        <p>Interior powder coated Silver Vein Hammertone, exterior powder coated Black with metallic flake in clear coat, 1 Front Port side door, 1 Rear starboard side door, Pizza Oven Line deck with 6 cup holders ( 10 total), Elite Diamond punched sides, 2Built in rod storage tubes, True Full level diamond plate floor powder coated Gun Metal Grey, Patented Quick Lock seat system, In- floor Fish box with removable bait box, 12 position oar lock block, Jeweled Gunnel Rail, 2 Custom PAVATI Element seats on dry storage boxes, 1 Custom PAVATI Element Row seat on dry storage box, Accessory Tower with tackle and rod storage, Rod holder floor box with leader roller, Manual style anchor release with patented locking anchor nest and 35 lb. Anchor, 2 Stainless Steel oar locks, 2 Sawyer Square top Oars, North West Aluminum trailer. Call for pricing 1-877-402-2388 (Toll Free)</p>
     </div>
 </div>
 
@@ -80,7 +80,7 @@ If we don't answer immediately, then please leave a message and we will get back
         </div>
     </div>
     <div class='for-sale-information'>
-        <p>Front port side door, Rear starboard side door, 3 Pavati Element passenger seats with dry storage boxes, Padded row seat with dry storage, Full level diamond plate floor, UHMW bottom Pizza oven, Starboard side rod storage tube, Port side Rod storage tube, In-floor fish box, Manual anchor release, Aluminum trailer, Sawyer square top oars, and much more! Call for pricing 541 778 2650</p>
+        <p>Front port side door, Rear starboard side door, 3 Pavati Element passenger seats with dry storage boxes, Padded row seat with dry storage, Full level diamond plate floor, UHMW bottom Pizza oven, Starboard side rod storage tube, Port side Rod storage tube, In-floor fish box, Manual anchor release, Aluminum trailer, Sawyer square top oars, and much more! Call for pricing 1-877-402-2388 (Toll Free)</p>
     </div>
 </div>
 
@@ -92,7 +92,7 @@ If we don't answer immediately, then please leave a message and we will get back
         </div>
     </div>
     <div class='for-sale-information'>
-        <p>For Sale and available After May 15, 2015: 2012 Pavati Driftboat 16 X 61 and custom Drifter Trailer, Three Bentley seats, Sawyer oars, Fish Box, bait well, Heater system, Rod Holders, New wheel bearings on trailer, Anchor and more, This boat would retail today for about $11,000 plus shipping to get it here. It has some scratches from everyday use but is in perfect working condition.  Tow it away for $11,000.00 Boat is located in NY. Call Steve Crisler @ 541-778-2650 for more information</p>
+        <p>For Sale and available After May 15, 2015: 2012 Pavati Driftboat 16 X 61 and custom Drifter Trailer, Three Bentley seats, Sawyer oars, Fish Box, bait well, Heater system, Rod Holders, New wheel bearings on trailer, Anchor and more, This boat would retail today for about $11,000 plus shipping to get it here. It has some scratches from everyday use but is in perfect working condition.  Tow it away for $11,000.00 Boat is located in NY. Call Steve Crisler @ 1-877-402-2388 (Toll Free) for more information</p>
     </div>
 </div>
 
@@ -117,7 +117,7 @@ If we don't answer immediately, then please leave a message and we will get back
     </div>
     <div class='for-sale-information'>
         <p>Elite embossed diamond plated lower -powder coated exterior, Grey wrap upper exterior, Grey Zolotone interior, Front starboard side door, Front port side, rod storage tube, 2 PAVATI Element Passenger seats on dry storage boxes, 1 PAVATI Padded Row Seat on Dry storage 3/4 walk around, Removable back rest, Accessory Tower with tackle storage and rod rack, Rod holder floor box with leader roller, Pizza oven line deck, 6 stainless cup holders, Front heater kit, 
-Vacuumed sealed UHMW bottom, In floor anchor release with, locking anchor nest, 35 lb anchor, 80' rope, 12 position oar lock block, Removable Full level Diamond plate floor, Quick lock seat system, Extra large magnetic side storage compartments w/ truth ruler, Radius Transom, Dimpled bottom, Motor Ready Transom, Sawyer Square top oars, Helfrich Stainless oar locks, North West Aluminum trailer- Standard, Call Steve Crisler @ 541-778-2650 for more information and pricing</p>
+Vacuumed sealed UHMW bottom, In floor anchor release with, locking anchor nest, 35 lb anchor, 80' rope, 12 position oar lock block, Removable Full level Diamond plate floor, Quick lock seat system, Extra large magnetic side storage compartments w/ truth ruler, Radius Transom, Dimpled bottom, Motor Ready Transom, Sawyer Square top oars, Helfrich Stainless oar locks, North West Aluminum trailer- Standard, Call Steve Crisler @ 1-877-402-2388 (Toll Free) for more information and pricing</p>
     </div>
 </div>
 
@@ -130,7 +130,7 @@ Vacuumed sealed UHMW bottom, In floor anchor release with, locking anchor nest, 
     </div>
     <div class='for-sale-information'>
         <p>Fully customized 2011 Pavati Legacy 17 x 61. Features include: 2 doors, 3 dry Box seats + padded row seat on dry box with removeable back, 2 sets oars of which one set is square top wood – new vacuum sealed UHMW bottom manual anchor with locking anchor nest, port / starboard rod tubes, the truth ruler, tackle box storage + rod holder, slottted removeable level diamond plate floor, north west trailer with new wheel bearings 8/19/2015 and front storage locker under casting deck
-adjustable rear casting stand. Call Steve Crisler @ 541-778-2650 for pricing and more information</p>
+adjustable rear casting stand. Call Steve Crisler @ 1-877-402-2388 (Toll Free) for pricing and more information</p>
     </div>
 </div>
 

@@ -1,3 +1,19 @@
+.thanksImage {
+	height: 1000px;
+    background: url('http://www.pavatimarine.com/imgs/slides/IMG_4934.jpg') no-repeat center;
+}
+
+.thanksDialogue {
+	position: relative;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    top: 30%;
+}
 /* SKELETON */
 
 .container{ position: relative; width: 960px; margin: 0 auto; padding: 0; } .row { margin-bottom: 20px; }

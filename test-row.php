@@ -50,7 +50,7 @@ warrior, guardian, legacy, wildcat, destroyer, test row, demo, sales representat
 			
 			<div style="margin-top:-15px;" class="five columns input-container">
 				<h2>talk to a sales representitive</h2>
-				<p><a href="tel:5417782650">(541)778-2650</a></p>
+				<p><a href="tel:18774022388">1-877-402-2388 (Toll Free)</a></p>
 			</div>	
 
 		</div>

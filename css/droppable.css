@@ -328,9 +328,9 @@ text-align:center; text-transform:uppercase; width:60px; z-index:50; }
 .top-right-nav-link:hover{ color:#3AA1BE; cursor:pointer; }
 .nav-lnk-vert-sep { background:rgba(255,255,255,0.25); float:right; height:16px; padding:0; margin:8px 10px 0 10px; width:1px; }
 
-.phone { background:rgba(0,0,0,0.25); color:#FFF; float:right; font-size:14px; font-weight:bold; height:30px; letter-spacing:1px; line-height:30px; margin:4px 0 0 0; padding:0 20px; }
+.phone { background:rgba(0,0,0,0.25); color:#FFF; float:right; font-size:14px; font-weight:bold; height:30px; letter-spacing:1px; line-height:30px; margin:4px 0 0 0; padding:0 2px; position: relative; left: 20px; }
 .header-fb-like { background:url("../imgs/icons/social/facebook-header.png") center center no-repeat #4a6d9d; cursor:pointer; float:right; height:30px;
-margin:4px 5px 0 0; width:30px; }
+margin:4px 5px 0 0; width:30px; position: relative; left: 30px; clear: right; }
 
 .header-fb-like:hover, .navigation ul .navigation-button:hover, .toggle-mobile-nav-button:hover, .mobile-nav-link:hover, input[type="submit"]:hover { background-color:rgba(0,0,0,0.2); color:#FFF; }
 .header-fb-like:active, .navigation ul .navigation-button:active, .toggle-mobile-nav-button:active, .mobile-nav-link:active,

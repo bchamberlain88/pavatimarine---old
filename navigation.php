@@ -16,7 +16,7 @@
 <div class="navigation-right-links">
 	<a href=<?php echo "'".$path."contact'"; ?> class="top-right-nav-link nav-lnk-vert-sep">Buy A Boat</a>
 	<a href=<?php echo "'".$path."test-row'"; ?> class="top-right-nav-link">Request A Test Row</a>
-	<a href="tel:18774022388"><li class="navigation-button" id="navlink-register">1-877-402-2388</li></a>
+	<a href="tel:18774022388"><li class="navigation-button" id="navlink-register">1-877-402-2388 (Toll Free)</li></a>
 	<a href="http://www.facebook.com/pavatifishingboats" target="new" class="header-fb-like"></a>
 </div></ul></nav>
 

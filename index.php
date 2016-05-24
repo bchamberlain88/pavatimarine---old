@@ -321,7 +321,7 @@ src="https://www.facebook.com/tr?id=769528483148690&ev=PageView&noscript=1"
         $(".thanks-shadow").delay(3000).fadeOut(500);
     }else{
         if(url == "error"){
-        $("body").append("<div class='thanks-shadow'><div class='thanks-overlay'><h1 style='padding-bottom:26px;'>It looks like you've already contacted us. If you need assistance, please call us at 1-877-402-2388</h1></div></div>");
+        $("body").append("<div class='thanks-shadow'><div class='thanks-overlay'><h1 style='padding-bottom:26px;'>It looks like you've already contacted us. If you need assistance, please call us at 1-877-402-2388 (Toll Free)</h1></div></div>");
         $(".thanks-shadow, .thanks-overlay").show();
         $(".thanks-overlay").delay(2500).fadeOut(500);
         $(".thanks-shadow").delay(3000).fadeOut(500);

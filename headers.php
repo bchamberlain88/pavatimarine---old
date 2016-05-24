@@ -17,8 +17,8 @@
         <a class="top-right-nav-link" href="<?php echo $site; ?>test-row">Take A Test Row</a>
         <div class="nav-lnk-vert-sep"></div>
         <a class="top-right-nav-link" href="<?php echo $site; ?>contact">Call A Sales Rep</a>
-        <span class="border3 phone">1-877-402-2388</span>
         <a class="border3 header-fb-like" href="https://www.facebook.com/pavatifishingboats" target="new"></a>
+        <span class="border3 phone">1-877-402-2388 (Toll Free)</span>
     </div>
 
 </nav>

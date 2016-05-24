@@ -381,7 +381,7 @@ $(".sale-thumb").click(function(){
         $(".sale-dialog").append("<h1>"+saleTit+" For Sale</h1>");
         $(".sale-dialog").append("<label>"+saleTyp+"</label>");
         $(".sale-dialog").append("<div class='dialog-txt'>"+saleTxt+"</div>");
-        $(".sale-dialog").append("<a class='dialog-contact'>Call 1-877-402-2388 For Pricing & Availability</a>");
+        $(".sale-dialog").append("<a class='dialog-contact'>Call 1-877-402-2388 (Toll Free) For Pricing & Availability</a>");
         $(".sale-dialog").delay(200).fadeIn(300);
 
         $(".close-sale").click(function(){
